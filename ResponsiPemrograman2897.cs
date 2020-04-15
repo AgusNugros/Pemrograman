@@ -1,12 +1,11 @@
 using System;
 
-namespace ResponsiPemrograman2596
+namespace ResponsiPemrograman2897
 {
     class Program
     {
         static void Main(string[] args)
         {
-
 
 
             Karyawan karyawan = new Karyawan(19112897, "Agus", 30000000);
@@ -18,7 +17,7 @@ namespace ResponsiPemrograman2596
             karyawan.showKaryawan();
             karyawan2.showKaryawan();
 
-            Console.WriteLine("\n\n Data Kenaikan Gaji anda");
+            Console.WriteLine("\n\n Data Kenaikan Gaji anda sebesar 10%");
 
             Console.WriteLine("NIK \t Nama \t Gaji");
             Console.WriteLine("--------------------------");
